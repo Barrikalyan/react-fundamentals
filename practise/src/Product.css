@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 3px 4px 3px black;
+
+}
+.title{
+
+    font-size:28px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.price{
+    font-size:25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stock2{
+    font-size:30px;
+    color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stock1{
+    font-size:30px;
+    color: rgb(3, 214, 49);
+    font-family: 'Times New Roman', Times, serif;
+}

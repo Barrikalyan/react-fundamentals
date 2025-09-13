@@ -1,12 +1,17 @@
+import './Product.css'
 function ProductCard(variable) {
 
  
     return (
         <>
-            <h1>Product Name is :{variable.productname}</h1>
-            <h2>Product Price is :{variable.price} </h2>
-            <h3>{variable.isAvailabe ? "Yes the product is available": "Out of stock"}</h3>
-        </>
+        <div className='container'>
+            <p className="title">Product Name is :{variable.productname}</p><br />
+            <p className="price">Product Price is :{variable.price} </p><br />
+        {variable.isAvailabe ? <h1 className='stock1'>In Stock</h1>: <h1 className='stock2'>Out Of Stock   </h1>}
+                  </div>
+
+
+                  </>
     )
 }
 
