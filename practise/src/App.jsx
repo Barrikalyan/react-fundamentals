@@ -8,7 +8,7 @@ function App() {
     <>
       
         
-          <ProductCard  receivedname={productname}  price={price} isAvailabe={isAvailabe} />
+          <ProductCard  productname={productname}  price={price} isAvailabe={isAvailabe} />
     </>
   );
 }
