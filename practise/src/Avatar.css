@@ -1,9 +1,8 @@
 
-.card:hover{
-box-shadow: 3px 4px 5px blue;
-}
+
 img{
     height: 200px;
+    box-shadow: 3px 4px 5px blue;
     border-radius: 50px;
 }
 
